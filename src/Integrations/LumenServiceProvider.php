@@ -19,7 +19,7 @@ class LumenServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        if ($this->app->environment() == 'production') return;
+        //if ($this->app->environment() == 'production') return;
 
         $this->addRoutes();
     }
